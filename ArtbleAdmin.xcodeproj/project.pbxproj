@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		488FA0FA7F14B5CFBD631FBC /* Pods_ArtbleAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D800B53A36739C454BEE8C /* Pods_ArtbleAdmin.framework */; };
+		E7025E5E2399F312000412AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E5D2399F312000412AD /* AppDelegate.swift */; };
+		E7025E602399F312000412AD /* AdminHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E5F2399F312000412AD /* AdminHomeVC.swift */; };
+		E7025E632399F312000412AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7025E612399F312000412AD /* Main.storyboard */; };
+		E7025E652399F312000412AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7025E642399F312000412AD /* Assets.xcassets */; };
+		E7025E682399F312000412AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7025E662399F312000412AD /* LaunchScreen.storyboard */; };
+		E7025E702399F3AD000412AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7025E6F2399F3AD000412AD /* GoogleService-Info.plist */; };
+		E7025E732399F5E8000412AD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E712399F5E8000412AD /* Product.swift */; };
+		E7025E742399F5E8000412AD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E722399F5E8000412AD /* Category.swift */; };
+		E7025E782399F609000412AD /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E762399F609000412AD /* CategoriesCell.swift */; };
+		E7025E792399F609000412AD /* CategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7025E772399F609000412AD /* CategoriesCell.xib */; };
+		E7025E7F2399F713000412AD /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E7B2399F713000412AD /* RoundedViews.swift */; };
+		E7025E802399F713000412AD /* Firebase+ Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E7C2399F713000412AD /* Firebase+ Utils.swift */; };
+		E7025E812399F713000412AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E7D2399F713000412AD /* Constants.swift */; };
+		E7025E822399F713000412AD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E7E2399F713000412AD /* Extension.swift */; };
+		E7025E862399F97B000412AD /* AddEditCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E852399F97B000412AD /* AddEditCategoryVC.swift */; };
+		E7025E8B239A43B0000412AD /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E89239A43B0000412AD /* ProductCell.swift */; };
+		E7025E8C239A43B0000412AD /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7025E8A239A43B0000412AD /* ProductCell.xib */; };
+		E7025E8E239A43FD000412AD /* AdminProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E8D239A43FD000412AD /* AdminProductsVC.swift */; };
+		E7025E90239A4A5C000412AD /* AddEditProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7025E8F239A4A5C000412AD /* AddEditProductsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		248E823FF01EDD2AD01AD7D6 /* Pods-ArtbleAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtbleAdmin.release.xcconfig"; path = "Target Support Files/Pods-ArtbleAdmin/Pods-ArtbleAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		37D800B53A36739C454BEE8C /* Pods_ArtbleAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtbleAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BED587422F26012C80BBCA /* Pods-ArtbleAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtbleAdmin.debug.xcconfig"; path = "Target Support Files/Pods-ArtbleAdmin/Pods-ArtbleAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		E7025E5A2399F312000412AD /* ArtbleAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtbleAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7025E5D2399F312000412AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7025E5F2399F312000412AD /* AdminHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeVC.swift; sourceTree = "<group>"; };
+		E7025E622399F312000412AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7025E642399F312000412AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7025E672399F312000412AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7025E692399F312000412AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7025E6F2399F3AD000412AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7025E712399F5E8000412AD /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E7025E722399F5E8000412AD /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E7025E762399F609000412AD /* CategoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		E7025E772399F609000412AD /* CategoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesCell.xib; sourceTree = "<group>"; };
+		E7025E7B2399F713000412AD /* RoundedViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		E7025E7C2399F713000412AD /* Firebase+ Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Firebase+ Utils.swift"; sourceTree = "<group>"; };
+		E7025E7D2399F713000412AD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E7025E7E2399F713000412AD /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E7025E852399F97B000412AD /* AddEditCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCategoryVC.swift; sourceTree = "<group>"; };
+		E7025E89239A43B0000412AD /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		E7025E8A239A43B0000412AD /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		E7025E8D239A43FD000412AD /* AdminProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProductsVC.swift; sourceTree = "<group>"; };
+		E7025E8F239A4A5C000412AD /* AddEditProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditProductsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7025E572399F312000412AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488FA0FA7F14B5CFBD631FBC /* Pods_ArtbleAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327F31146B7DF37001E6CDE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37D800B53A36739C454BEE8C /* Pods_ArtbleAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B075904EB03B42E7D4053A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99BED587422F26012C80BBCA /* Pods-ArtbleAdmin.debug.xcconfig */,
+				248E823FF01EDD2AD01AD7D6 /* Pods-ArtbleAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7025E512399F312000412AD = {
+			isa = PBXGroup;
+			children = (
+				E7025E5C2399F312000412AD /* ArtbleAdmin */,
+				E7025E5B2399F312000412AD /* Products */,
+				68B075904EB03B42E7D4053A /* Pods */,
+				327F31146B7DF37001E6CDE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7025E5B2399F312000412AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7025E5A2399F312000412AD /* ArtbleAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7025E5C2399F312000412AD /* ArtbleAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				E7025E882399F9B7000412AD /* View */,
+				E7025E872399F992000412AD /* Storyboard */,
+				E7025E842399F94C000412AD /* Controller */,
+				E7025E832399F717000412AD /* Ultis */,
+				E7025E7A2399F60D000412AD /* Xib */,
+				E7025E752399F5EC000412AD /* Model */,
+				E7025E642399F312000412AD /* Assets.xcassets */,
+				E7025E692399F312000412AD /* Info.plist */,
+				E7025E6F2399F3AD000412AD /* GoogleService-Info.plist */,
+			);
+			path = ArtbleAdmin;
+			sourceTree = "<group>";
+		};
+		E7025E752399F5EC000412AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7025E712399F5E8000412AD /* Product.swift */,
+				E7025E722399F5E8000412AD /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7025E7A2399F60D000412AD /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				E7025E8A239A43B0000412AD /* ProductCell.xib */,
+				E7025E772399F609000412AD /* CategoriesCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		E7025E832399F717000412AD /* Ultis */ = {
+			isa = PBXGroup;
+			children = (
+				E7025E7D2399F713000412AD /* Constants.swift */,
+				E7025E7E2399F713000412AD /* Extension.swift */,
+				E7025E7C2399F713000412AD /* Firebase+ Utils.swift */,
+				E7025E7B2399F713000412AD /* RoundedViews.swift */,
+			);
+			path = Ultis;
+			sourceTree = "<group>";
+		};
+		E7025E842399F94C000412AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7025E5D2399F312000412AD /* AppDelegate.swift */,
+				E7025E5F2399F312000412AD /* AdminHomeVC.swift */,
+				E7025E852399F97B000412AD /* AddEditCategoryVC.swift */,
+				E7025E8D239A43FD000412AD /* AdminProductsVC.swift */,
+				E7025E8F239A4A5C000412AD /* AddEditProductsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7025E872399F992000412AD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E7025E612399F312000412AD /* Main.storyboard */,
+				E7025E662399F312000412AD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E7025E882399F9B7000412AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7025E762399F609000412AD /* CategoriesCell.swift */,
+				E7025E89239A43B0000412AD /* ProductCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7025E592399F312000412AD /* ArtbleAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7025E6C2399F312000412AD /* Build configuration list for PBXNativeTarget "ArtbleAdmin" */;
+			buildPhases = (
+				0E35D69E68AE97B28B8AE5FC /* [CP] Check Pods Manifest.lock */,
+				E7025E562399F312000412AD /* Sources */,
+				E7025E572399F312000412AD /* Frameworks */,
+				E7025E582399F312000412AD /* Resources */,
+				2C9E4C5C426777DA5EEC26E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtbleAdmin;
+			productName = ArtbleAdmin;
+			productReference = E7025E5A2399F312000412AD /* ArtbleAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7025E522399F312000412AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Trần Thành";
+				TargetAttributes = {
+					E7025E592399F312000412AD = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = E7025E552399F312000412AD /* Build configuration list for PBXProject "ArtbleAdmin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7025E512399F312000412AD;
+			productRefGroup = E7025E5B2399F312000412AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7025E592399F312000412AD /* ArtbleAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7025E582399F312000412AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7025E792399F609000412AD /* CategoriesCell.xib in Resources */,
+				E7025E682399F312000412AD /* LaunchScreen.storyboard in Resources */,
+				E7025E702399F3AD000412AD /* GoogleService-Info.plist in Resources */,
+				E7025E8C239A43B0000412AD /* ProductCell.xib in Resources */,
+				E7025E652399F312000412AD /* Assets.xcassets in Resources */,
+				E7025E632399F312000412AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E35D69E68AE97B28B8AE5FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtbleAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C9E4C5C426777DA5EEC26E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtbleAdmin/Pods-ArtbleAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtbleAdmin/Pods-ArtbleAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtbleAdmin/Pods-ArtbleAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7025E562399F312000412AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7025E822399F713000412AD /* Extension.swift in Sources */,
+				E7025E8B239A43B0000412AD /* ProductCell.swift in Sources */,
+				E7025E7F2399F713000412AD /* RoundedViews.swift in Sources */,
+				E7025E862399F97B000412AD /* AddEditCategoryVC.swift in Sources */,
+				E7025E782399F609000412AD /* CategoriesCell.swift in Sources */,
+				E7025E802399F713000412AD /* Firebase+ Utils.swift in Sources */,
+				E7025E90239A4A5C000412AD /* AddEditProductsVC.swift in Sources */,
+				E7025E602399F312000412AD /* AdminHomeVC.swift in Sources */,
+				E7025E5E2399F312000412AD /* AppDelegate.swift in Sources */,
+				E7025E732399F5E8000412AD /* Product.swift in Sources */,
+				E7025E742399F5E8000412AD /* Category.swift in Sources */,
+				E7025E8E239A43FD000412AD /* AdminProductsVC.swift in Sources */,
+				E7025E812399F713000412AD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7025E612399F312000412AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7025E622399F312000412AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7025E662399F312000412AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7025E672399F312000412AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7025E6A2399F312000412AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7025E6B2399F312000412AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7025E6D2399F312000412AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BED587422F26012C80BBCA /* Pods-ArtbleAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtbleAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thanh.Artable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7025E6E2399F312000412AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248E823FF01EDD2AD01AD7D6 /* Pods-ArtbleAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtbleAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thanh.Artable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7025E552399F312000412AD /* Build configuration list for PBXProject "ArtbleAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7025E6A2399F312000412AD /* Debug */,
+				E7025E6B2399F312000412AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7025E6C2399F312000412AD /* Build configuration list for PBXNativeTarget "ArtbleAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7025E6D2399F312000412AD /* Debug */,
+				E7025E6E2399F312000412AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7025E522399F312000412AD /* Project object */;
+}
